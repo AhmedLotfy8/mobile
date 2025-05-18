@@ -27,5 +27,3 @@
 | **Form Handling** | Form, TextFormField (with validation) |
 
 ---
-
-## **📂 Project Structure**
