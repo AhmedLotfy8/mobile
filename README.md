@@ -1,16 +1,31 @@
-# firstproject
+# **PassPorta: A Secure Authentication & Data Management App**  
 
-A new Flutter project.
+🚀 **PassPorta** is a Flutter app built using **MVVM architecture**, **Provider for state management**, and **SharedPreferences for local storage**. It enables **user authentication**, **API integration**, **theme switching**, and **basic CRUD operations** for a seamless experience.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## **📌 Features**
+- **🚀 Splash Screen** – Displays a loading screen while checking login status.
+- **🔑 Sign Up Screen** – User registration with validation (name, email, password).
+- **🔐 Login Screen** – Secure login with persistent user session via SharedPreferences.
+- **📦 Add Items Screen** – Users can create custom items with descriptions and images.
+- **📊 Dashboard Screen** – Displays items added by the user.
+- **🌍 Home Screen** – Fetches and displays items from a **public API** (`http` package).
+- **🔍 Details Screen** – Shows detailed info about an item.
+- **❤️ Favorite Screen** – Displays user-marked favorite items (toggle with **Provider**).
+- **👤 Profile Screen** – Shows user info, allows edits, and includes a **Logout** button.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## **🛠️ Tech Stack**
+| Feature            | Technology |
+|--------------------|------------|
+| **Architecture**   | MVVM |
+| **State Management** | Provider |
+| **Persistent Storage** | SharedPreferences |
+| **API Integration** | `http` package |
+| **Form Handling** | Form, TextFormField (with validation) |
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## **📂 Project Structure**
