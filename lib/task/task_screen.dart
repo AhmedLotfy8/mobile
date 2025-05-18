@@ -6,6 +6,7 @@ class TaskScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: Text('Task Screen')),
       body: Column(
+
         children: [
           Expanded(
             child: Row(
